@@ -1,13 +1,23 @@
-# Python-generated files
+# Ignore cache & temp
 __pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
+*.pyc
 
-# Virtual environments
+# ignore lock file
+uv.lock
+
+# ignore ultralytics cache
+runs/
+weights/
+*.pt
+best.pt
+
+# macOS noise files
+.DS_Store
+
+# environments
+
 .venv
 
-#uv.lock
-uv.lock
+# Streamlit secrets
+.streamlit/config.toml
+pyproject.toml
