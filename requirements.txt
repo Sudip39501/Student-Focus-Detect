@@ -1,0 +1,15 @@
+# Student Focus Detection App - Streamlit + YOLOv8
+# Author: Sudip Biswas
+# Python version used: 3.10 (recommended for compatibility)
+
+
+# Core libraries
+streamlit==1.38.0
+ultralytics==8.3.0
+opencv-python==4.10.0.84
+Pillow==10.4.0
+numpy==1.26.4
+
+# Optional (for file handling and system utilities)
+PyYAML==6.0.2
+matplotlib==3.9.1
